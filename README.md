@@ -18,7 +18,7 @@ then  API endpoints that can be used to assign users to a group like manager or 
      <li>When an order is successfully created, the cart must be emptied.</li>
      <li>Each customer can only have one cart at a time, but a cart can contain multiple menu items.</li>
   </ul>
-  <li>Delivery Crew Role:<li>
+  <li>Delivery Crew Role:</li>
     <ul>
       <li>Delivery personnel can browse orders assigned to them via API endpoints after successful authentication.</li>
       <li>They can mark orders as delivered.</li>
@@ -28,6 +28,7 @@ then  API endpoints that can be used to assign users to a group like manager or 
 And finally, there is  throttling  implementation  to limit to five API calls per minute.
 
 <h2>API endpoints </h2>
+
 - User registration and token generation endpoints 
 
    ![image](https://github.com/user-attachments/assets/4335e0e4-f5fc-40e4-b8c3-e8686e427f4b)
